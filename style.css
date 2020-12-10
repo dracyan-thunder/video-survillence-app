@@ -1,0 +1,30 @@
+.hyper1{
+    height: 50px;
+    font-size: 21px;
+    text-align: center;
+    float: none;
+}
+
+.hyper2{
+    height: 40px;
+    text-align: center;
+    border-radius: 7px;
+    margin-top: 30px;
+    margin-left: 600px;
+}
+
+body{
+    background-size: cover;
+}
+
+canvas{
+    border: 10px ridge grey;
+    border-radius: 13px;
+}
+
+.hyper3{
+    border-radius: 7px;
+    width: 200px;
+    text-align: center;
+    margin-left: 550px
+}
