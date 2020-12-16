@@ -18,10 +18,10 @@ function draw(){
             document.getElementById("status").innerHTML='Status : Objects Detected';
             fill("#0eacf0");
             pecentage=floor(object[i].confidence*100);
-            text(objcet[i].label+percentage,object[i].x,object[i].y);
+            text(object[i].label+percentage,object[i].x,object[i].y);
             noFill();
             stroke("#0eacf0");
-            rect(objcet[i].x,object[i].y,object[i].width,objcet[i].height);
+            rect(object[i].x,object[i].y,object[i].width,object[i].height);
         }
     }
 }
